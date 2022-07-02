@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature and Humidity</title>
+</head>
+<body>
+<p>Hello World</p>
+{% if data %}
+    <p>Temperature = {{ data.temperature }}</p>
+    <p>Humidity = {{ data.humidity }}</p>
+{% else %}
+    <p>Temperature = Nada ainda!</p>
+    <p>Humidity = Nada ainda!</p>
+{% endif %}
+
+</body>
+</html>
